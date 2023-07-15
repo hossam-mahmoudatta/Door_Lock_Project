@@ -12,13 +12,13 @@
 
 
 /*******************************************************************************
- *                              					 Application Libraries                                					  *
+ *                        		Application Libraries                          *
  *******************************************************************************/
 
 #include "mainApp_Functions.h"
 
 /*******************************************************************************
- *                              						  Modules Drivers                                  					  *
+ *                              	Modules Drivers                     	   *
  *******************************************************************************/
 
 //#include "../MCAL/ADC_DRIVER/ADC.h"
@@ -43,7 +43,7 @@
 #include "../ECUAL/LED_DRIVER/LED.h" // I will need this driver for this ECU Driver
 
 /*******************************************************************************
- *                              						Application Execution                              					  *
+ *                              Application Execution                          *
  *******************************************************************************/
 
 /*
@@ -74,8 +74,8 @@ ISR(TIMER0_COMP_vect) {
 }
 */
 
-volatile uint8 dataReceived 	= 0;
-volatile uint8 dataSent 			= 0;
+volatile uint8 dataReceived		= 0;
+volatile uint8 dataSent			= 0;
 
 ISR(TIMER0_COMP_vect) {
 
@@ -102,14 +102,13 @@ int main(void) {
 	KEYPAD_Init();
 	LCD_Init();
 
-	uint8* password1 						= passwordEntry1();
-	uint8* passwordVerification 	= passwordEntry2();
+	uint8* password1 			= passwordEntry1();
+	uint8* passwordVerification = passwordEntry2();
 
 	// Displays the passwords saved in the arrays to check if keypad inputed correctly
 	displayPasswords(password1, passwordVerification);
 
 	USART_sendPassword(password1);
-
 
 
 
