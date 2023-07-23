@@ -1,156 +1,21 @@
-17:54:26 **** Build of configuration Debug for project DOORLOCK_HMI_HOSA ****
+17:47:40 **** Incremental Build of configuration Debug for project DOORLOCK_HMI_HOSA ****
 make all 
-Building file: ../MCAL/USART_DRIVER/USART.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/USART_DRIVER/USART.d" -MT"MCAL/USART_DRIVER/USART.o" -c -o "MCAL/USART_DRIVER/USART.o" "../MCAL/USART_DRIVER/USART.c"
-In file included from ../MCAL/USART_DRIVER/USART.c:16:
-c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-Finished building: ../MCAL/USART_DRIVER/USART.c
- 
-Building file: ../MCAL/TIMER_DRIVER/TIMER.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/TIMER_DRIVER/TIMER.d" -MT"MCAL/TIMER_DRIVER/TIMER.o" -c -o "MCAL/TIMER_DRIVER/TIMER.o" "../MCAL/TIMER_DRIVER/TIMER.c"
-../MCAL/TIMER_DRIVER/TIMER.h:217: warning: 'Timer1_callback' defined but not used
-Finished building: ../MCAL/TIMER_DRIVER/TIMER.c
- 
-Building file: ../MCAL/SPI_DRIVER/SPI.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/SPI_DRIVER/SPI.d" -MT"MCAL/SPI_DRIVER/SPI.o" -c -o "MCAL/SPI_DRIVER/SPI.o" "../MCAL/SPI_DRIVER/SPI.c"
-In file included from ../MCAL/SPI_DRIVER/SPI.c:16:
-c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-Finished building: ../MCAL/SPI_DRIVER/SPI.c
- 
-Building file: ../MCAL/ICU_DRIVER/ICU.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/ICU_DRIVER/ICU.d" -MT"MCAL/ICU_DRIVER/ICU.o" -c -o "MCAL/ICU_DRIVER/ICU.o" "../MCAL/ICU_DRIVER/ICU.c"
-In file included from ../MCAL/ICU_DRIVER/ICU.c:16:
-c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-Finished building: ../MCAL/ICU_DRIVER/ICU.c
- 
-Building file: ../MCAL/I2C_DRIVER/I2C.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/I2C_DRIVER/I2C.d" -MT"MCAL/I2C_DRIVER/I2C.o" -c -o "MCAL/I2C_DRIVER/I2C.o" "../MCAL/I2C_DRIVER/I2C.c"
-In file included from ../MCAL/I2C_DRIVER/I2C.c:20:
-c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-Finished building: ../MCAL/I2C_DRIVER/I2C.c
- 
-Building file: ../MCAL/GPIO_DRIVER/GPIO.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/GPIO_DRIVER/GPIO.d" -MT"MCAL/GPIO_DRIVER/GPIO.o" -c -o "MCAL/GPIO_DRIVER/GPIO.o" "../MCAL/GPIO_DRIVER/GPIO.c"
-Finished building: ../MCAL/GPIO_DRIVER/GPIO.c
- 
-Building file: ../MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.d" -MT"MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o" -c -o "MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o" "../MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.c"
-In file included from ../MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.c:16:
-c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-Finished building: ../MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.c
- 
-Building file: ../MCAL/ADC_DRIVER/ADC.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/ADC_DRIVER/ADC.d" -MT"MCAL/ADC_DRIVER/ADC.o" -c -o "MCAL/ADC_DRIVER/ADC.o" "../MCAL/ADC_DRIVER/ADC.c"
-In file included from ../MCAL/ADC_DRIVER/ADC.c:16:
-c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-Finished building: ../MCAL/ADC_DRIVER/ADC.c
- 
-Building file: ../ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.d" -MT"ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o" -c -o "ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o" "../ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.c"
-Finished building: ../ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.c
- 
-Building file: ../ECUAL/MOTOR_DRIVER/MOTOR.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/MOTOR_DRIVER/MOTOR.d" -MT"ECUAL/MOTOR_DRIVER/MOTOR.o" -c -o "ECUAL/MOTOR_DRIVER/MOTOR.o" "../ECUAL/MOTOR_DRIVER/MOTOR.c"
-In file included from ../ECUAL/MOTOR_DRIVER/MOTOR.c:19:
-c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-Finished building: ../ECUAL/MOTOR_DRIVER/MOTOR.c
- 
-Building file: ../ECUAL/LM35_DRIVER/LM35.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/LM35_DRIVER/LM35.d" -MT"ECUAL/LM35_DRIVER/LM35.o" -c -o "ECUAL/LM35_DRIVER/LM35.o" "../ECUAL/LM35_DRIVER/LM35.c"
-In file included from ../ECUAL/LM35_DRIVER/LM35.c:17:
-c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-Finished building: ../ECUAL/LM35_DRIVER/LM35.c
- 
-Building file: ../ECUAL/LED_DRIVER/LED.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/LED_DRIVER/LED.d" -MT"ECUAL/LED_DRIVER/LED.o" -c -o "ECUAL/LED_DRIVER/LED.o" "../ECUAL/LED_DRIVER/LED.c"
-Finished building: ../ECUAL/LED_DRIVER/LED.c
- 
-Building file: ../ECUAL/LCD_DRIVER/LCD.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/LCD_DRIVER/LCD.d" -MT"ECUAL/LCD_DRIVER/LCD.o" -c -o "ECUAL/LCD_DRIVER/LCD.o" "../ECUAL/LCD_DRIVER/LCD.c"
-In file included from ../ECUAL/LCD_DRIVER/LCD.c:15:
-c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ECUAL/LCD_DRIVER/LCD.c: In function 'LCD_intgerToString':
-../ECUAL/LCD_DRIVER/LCD.c:230: warning: implicit declaration of function 'itoa'
-Finished building: ../ECUAL/LCD_DRIVER/LCD.c
- 
-Building file: ../ECUAL/KEYPAD_DRIVER/KEYPAD.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/KEYPAD_DRIVER/KEYPAD.d" -MT"ECUAL/KEYPAD_DRIVER/KEYPAD.o" -c -o "ECUAL/KEYPAD_DRIVER/KEYPAD.o" "../ECUAL/KEYPAD_DRIVER/KEYPAD.c"
-In file included from ../ECUAL/KEYPAD_DRIVER/KEYPAD.c:15:
-c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-Finished building: ../ECUAL/KEYPAD_DRIVER/KEYPAD.c
- 
-Building file: ../ECUAL/EEPROM_DRIVER/EEPROM.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/EEPROM_DRIVER/EEPROM.d" -MT"ECUAL/EEPROM_DRIVER/EEPROM.o" -c -o "ECUAL/EEPROM_DRIVER/EEPROM.o" "../ECUAL/EEPROM_DRIVER/EEPROM.c"
-In file included from ../ECUAL/EEPROM_DRIVER/EEPROM.c:17:
-c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-Finished building: ../ECUAL/EEPROM_DRIVER/EEPROM.c
- 
-Building file: ../ECUAL/BUZZER_DRIVER/BUZZER.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/BUZZER_DRIVER/BUZZER.d" -MT"ECUAL/BUZZER_DRIVER/BUZZER.o" -c -o "ECUAL/BUZZER_DRIVER/BUZZER.o" "../ECUAL/BUZZER_DRIVER/BUZZER.c"
-Finished building: ../ECUAL/BUZZER_DRIVER/BUZZER.c
- 
-Building file: ../ECUAL/BUTTON_DRIVER/BUTTON.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/BUTTON_DRIVER/BUTTON.d" -MT"ECUAL/BUTTON_DRIVER/BUTTON.o" -c -o "ECUAL/BUTTON_DRIVER/BUTTON.o" "../ECUAL/BUTTON_DRIVER/BUTTON.c"
-Finished building: ../ECUAL/BUTTON_DRIVER/BUTTON.c
- 
-Building file: ../APP/Comments.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/Comments.d" -MT"APP/Comments.o" -c -o "APP/Comments.o" "../APP/Comments.c"
-Finished building: ../APP/Comments.c
- 
 Building file: ../APP/HMI_main.c
 Invoking: AVR Compiler
 avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/HMI_main.d" -MT"APP/HMI_main.o" -c -o "APP/HMI_main.o" "../APP/HMI_main.c"
 In file included from ../APP/mainApp_Functions.h:18,
                  from ../APP/HMI_main.c:18:
 c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-In file included from ../APP/../ECUAL/KEYPAD_DRIVER/../../MCAL/GPIO_DRIVER/GPIO.h:16,
-                 from ../APP/../ECUAL/KEYPAD_DRIVER/KEYPAD.h:16,
-                 from ../APP/mainApp_Functions.h:21,
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:31,
                  from ../APP/HMI_main.c:18:
-../APP/../ECUAL/KEYPAD_DRIVER/../../MCAL/GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
 In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
                  from ../APP/mainApp_Functions.h:16,
                  from ../APP/HMI_main.c:18:
 c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
-../APP/../MCAL/TIMER_DRIVER/TIMER.h:217: warning: 'Timer1_callback' defined but not used
 Finished building: ../APP/HMI_main.c
- 
-Building file: ../APP/mainApp_Functions.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/mainApp_Functions.d" -MT"APP/mainApp_Functions.o" -c -o "APP/mainApp_Functions.o" "../APP/mainApp_Functions.c"
-In file included from ../APP/mainApp_Functions.h:18,
-                 from ../APP/mainApp_Functions.c:13:
-c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-In file included from ../APP/../ECUAL/KEYPAD_DRIVER/../../MCAL/GPIO_DRIVER/GPIO.h:16,
-                 from ../APP/../ECUAL/KEYPAD_DRIVER/KEYPAD.h:16,
-                 from ../APP/mainApp_Functions.h:21,
-                 from ../APP/mainApp_Functions.c:13:
-../APP/../ECUAL/KEYPAD_DRIVER/../../MCAL/GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
-In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
-                 from ../APP/mainApp_Functions.h:16,
-                 from ../APP/mainApp_Functions.c:13:
-c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
-../APP/mainApp_Functions.c: In function 'USART_sendPassword':
-../APP/mainApp_Functions.c:86: warning: implicit declaration of function 'USART_sendByte'
-Finished building: ../APP/mainApp_Functions.c
  
 Building target: DOORLOCK_HMI_HOSA.elf
 Invoking: AVR C Linker
@@ -171,15 +36,15 @@ AVR Memory Usage
 ----------------
 Device: atmega32
 
-Program:   18506 bytes (56.5% Full)
+Program:   18540 bytes (56.6% Full)
 (.text + .data + .bootloader)
 
-Data:        330 bytes (16.1% Full)
+Data:        326 bytes (15.9% Full)
 (.data + .bss + .noinit)
 
 
 Finished building: sizedummy
  
 
-17:54:30 Build Finished. 0 errors, 21 warnings. (took 3s.464ms)
+17:47:41 Build Finished. 0 errors, 3 warnings. (took 1s.106ms)
 

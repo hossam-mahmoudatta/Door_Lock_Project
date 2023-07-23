@@ -13,6 +13,7 @@
 #include "LCD.h"
 #include "avr/io.h" /* To use the IO Ports Registers */
 #include <util/delay.h>
+#include <stdlib.h>
 
 
 // Initializes and enables the LCD Module to start functionality

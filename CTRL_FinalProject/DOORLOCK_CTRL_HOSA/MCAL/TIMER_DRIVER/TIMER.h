@@ -214,11 +214,14 @@ uint8 Timer_setCTCMode_interruptFreq(float freqKHZ);
 void Timer_setfastPWMMode_normalFreq(float freqKHZ, uint8 port_num, uint8 pin_num);
 void Timer_setfastPWMMode_interruptFreq(float freqKHZ, uint8 port_num, uint8 pin_num);
 
+/*
 static void (*Timer1_callback)(void) = NULL;
 
 void Timer0_setCallBack(void(*a_ptr)(void));
 void Timer1_setCallBack(void(*a_ptr)(void));
 void Timer2_setCallBack(void(*a_ptr)(void));
+*/
+
 
 /*
 void Timer_Start(void);

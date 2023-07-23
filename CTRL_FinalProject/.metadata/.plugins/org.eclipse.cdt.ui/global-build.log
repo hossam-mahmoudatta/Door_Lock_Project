@@ -1,0 +1,1316 @@
+00:27:13 **** Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../MCAL/USART_DRIVER/USART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/USART_DRIVER/USART.d" -MT"MCAL/USART_DRIVER/USART.o" -c -o "MCAL/USART_DRIVER/USART.o" "../MCAL/USART_DRIVER/USART.c"
+In file included from ../MCAL/USART_DRIVER/USART.c:16:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/USART_DRIVER/USART.c
+ 
+Building file: ../MCAL/TIMER_DRIVER/TIMER.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/TIMER_DRIVER/TIMER.d" -MT"MCAL/TIMER_DRIVER/TIMER.o" -c -o "MCAL/TIMER_DRIVER/TIMER.o" "../MCAL/TIMER_DRIVER/TIMER.c"
+../MCAL/TIMER_DRIVER/TIMER.h:217: warning: 'Timer1_callback' defined but not used
+Finished building: ../MCAL/TIMER_DRIVER/TIMER.c
+ 
+Building file: ../MCAL/SPI_DRIVER/SPI.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/SPI_DRIVER/SPI.d" -MT"MCAL/SPI_DRIVER/SPI.o" -c -o "MCAL/SPI_DRIVER/SPI.o" "../MCAL/SPI_DRIVER/SPI.c"
+In file included from ../MCAL/SPI_DRIVER/SPI.c:16:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/SPI_DRIVER/SPI.c
+ 
+Building file: ../MCAL/ICU_DRIVER/ICU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/ICU_DRIVER/ICU.d" -MT"MCAL/ICU_DRIVER/ICU.o" -c -o "MCAL/ICU_DRIVER/ICU.o" "../MCAL/ICU_DRIVER/ICU.c"
+In file included from ../MCAL/ICU_DRIVER/ICU.c:16:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/ICU_DRIVER/ICU.c
+ 
+Building file: ../MCAL/I2C_DRIVER/I2C.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/I2C_DRIVER/I2C.d" -MT"MCAL/I2C_DRIVER/I2C.o" -c -o "MCAL/I2C_DRIVER/I2C.o" "../MCAL/I2C_DRIVER/I2C.c"
+In file included from ../MCAL/I2C_DRIVER/I2C.c:20:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/I2C_DRIVER/I2C.c
+ 
+Building file: ../MCAL/GPIO_DRIVER/GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/GPIO_DRIVER/GPIO.d" -MT"MCAL/GPIO_DRIVER/GPIO.o" -c -o "MCAL/GPIO_DRIVER/GPIO.o" "../MCAL/GPIO_DRIVER/GPIO.c"
+Finished building: ../MCAL/GPIO_DRIVER/GPIO.c
+ 
+Building file: ../MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.d" -MT"MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o" -c -o "MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o" "../MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.c"
+In file included from ../MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.c:16:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.c
+ 
+Building file: ../MCAL/ADC_DRIVER/ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/ADC_DRIVER/ADC.d" -MT"MCAL/ADC_DRIVER/ADC.o" -c -o "MCAL/ADC_DRIVER/ADC.o" "../MCAL/ADC_DRIVER/ADC.c"
+In file included from ../MCAL/ADC_DRIVER/ADC.c:16:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/ADC_DRIVER/ADC.c
+ 
+Building file: ../ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.d" -MT"ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o" -c -o "ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o" "../ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.c"
+Finished building: ../ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.c
+ 
+Building file: ../ECUAL/MOTOR_DRIVER/MOTOR.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/MOTOR_DRIVER/MOTOR.d" -MT"ECUAL/MOTOR_DRIVER/MOTOR.o" -c -o "ECUAL/MOTOR_DRIVER/MOTOR.o" "../ECUAL/MOTOR_DRIVER/MOTOR.c"
+In file included from ../ECUAL/MOTOR_DRIVER/MOTOR.c:19:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ECUAL/MOTOR_DRIVER/MOTOR.c
+ 
+Building file: ../ECUAL/LM35_DRIVER/LM35.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/LM35_DRIVER/LM35.d" -MT"ECUAL/LM35_DRIVER/LM35.o" -c -o "ECUAL/LM35_DRIVER/LM35.o" "../ECUAL/LM35_DRIVER/LM35.c"
+In file included from ../ECUAL/LM35_DRIVER/LM35.c:17:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ECUAL/LM35_DRIVER/LM35.c
+ 
+Building file: ../ECUAL/LED_DRIVER/LED.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/LED_DRIVER/LED.d" -MT"ECUAL/LED_DRIVER/LED.o" -c -o "ECUAL/LED_DRIVER/LED.o" "../ECUAL/LED_DRIVER/LED.c"
+Finished building: ../ECUAL/LED_DRIVER/LED.c
+ 
+Building file: ../ECUAL/LCD_DRIVER/LCD.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/LCD_DRIVER/LCD.d" -MT"ECUAL/LCD_DRIVER/LCD.o" -c -o "ECUAL/LCD_DRIVER/LCD.o" "../ECUAL/LCD_DRIVER/LCD.c"
+In file included from ../ECUAL/LCD_DRIVER/LCD.c:15:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../ECUAL/LCD_DRIVER/LCD.c: In function 'LCD_intgerToString':
+../ECUAL/LCD_DRIVER/LCD.c:230: warning: implicit declaration of function 'itoa'
+Finished building: ../ECUAL/LCD_DRIVER/LCD.c
+ 
+Building file: ../ECUAL/KEYPAD_DRIVER/KEYPAD.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/KEYPAD_DRIVER/KEYPAD.d" -MT"ECUAL/KEYPAD_DRIVER/KEYPAD.o" -c -o "ECUAL/KEYPAD_DRIVER/KEYPAD.o" "../ECUAL/KEYPAD_DRIVER/KEYPAD.c"
+In file included from ../ECUAL/KEYPAD_DRIVER/KEYPAD.c:15:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ECUAL/KEYPAD_DRIVER/KEYPAD.c
+ 
+Building file: ../ECUAL/EEPROM_DRIVER/EEPROM.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/EEPROM_DRIVER/EEPROM.d" -MT"ECUAL/EEPROM_DRIVER/EEPROM.o" -c -o "ECUAL/EEPROM_DRIVER/EEPROM.o" "../ECUAL/EEPROM_DRIVER/EEPROM.c"
+In file included from ../ECUAL/EEPROM_DRIVER/EEPROM.c:17:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ECUAL/EEPROM_DRIVER/EEPROM.c
+ 
+Building file: ../ECUAL/BUZZER_DRIVER/BUZZER.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/BUZZER_DRIVER/BUZZER.d" -MT"ECUAL/BUZZER_DRIVER/BUZZER.o" -c -o "ECUAL/BUZZER_DRIVER/BUZZER.o" "../ECUAL/BUZZER_DRIVER/BUZZER.c"
+Finished building: ../ECUAL/BUZZER_DRIVER/BUZZER.c
+ 
+Building file: ../ECUAL/BUTTON_DRIVER/BUTTON.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/BUTTON_DRIVER/BUTTON.d" -MT"ECUAL/BUTTON_DRIVER/BUTTON.o" -c -o "ECUAL/BUTTON_DRIVER/BUTTON.o" "../ECUAL/BUTTON_DRIVER/BUTTON.c"
+Finished building: ../ECUAL/BUTTON_DRIVER/BUTTON.c
+ 
+Building file: ../APP/CTRL_main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/CTRL_main.d" -MT"APP/CTRL_main.o" -c -o "APP/CTRL_main.o" "../APP/CTRL_main.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/CTRL_main.c:18:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:31,
+                 from ../APP/CTRL_main.c:18:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/CTRL_main.c:18:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/CTRL_main.c: In function '__vector_13':
+../APP/CTRL_main.c:40: warning: passing argument 1 of 'USART_sendPassword' makes pointer from integer without a cast
+../APP/CTRL_main.c: In function 'main':
+../APP/CTRL_main.c:57: warning: implicit declaration of function 'I2C_Init'
+../APP/CTRL_main.c:64: warning: implicit declaration of function 'USART_setReceiveCompleteCallback'
+../APP/CTRL_main.c:64: warning: implicit declaration of function 'USART_receiveCompleteCallback'
+../APP/CTRL_main.c:67: warning: implicit declaration of function 'UART_enableReceiveInterrupt'
+../APP/CTRL_main.c:61: warning: unused variable 'receivedPasswordVerification'
+../APP/CTRL_main.c:60: warning: unused variable 'receivedPassword1'
+../APP/CTRL_main.c: At top level:
+../APP/../MCAL/TIMER_DRIVER/TIMER.h:217: warning: 'Timer1_callback' defined but not used
+Finished building: ../APP/CTRL_main.c
+ 
+Building file: ../APP/mainApp_Functions.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/mainApp_Functions.d" -MT"APP/mainApp_Functions.o" -c -o "APP/mainApp_Functions.o" "../APP/mainApp_Functions.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/mainApp_Functions.c:13:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:31,
+                 from ../APP/mainApp_Functions.c:13:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/mainApp_Functions.c:13:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/../MCAL/TIMER_DRIVER/TIMER.h:217: warning: 'Timer1_callback' defined but not used
+Finished building: ../APP/mainApp_Functions.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+./APP/CTRL_main.o: In function `__vector_13':
+../APP/CTRL_main.c:39: undefined reference to `USART_receiveCompleteCallback'
+../APP/CTRL_main.c:40: undefined reference to `USART_setReceiveCompleteCallback'
+../APP/CTRL_main.c:40: undefined reference to `UART_enableReceiveInterrupt'
+make: *** [DOORLOCK_CTRL_HOSA.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:40:12 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../APP/CTRL_main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/CTRL_main.d" -MT"APP/CTRL_main.o" -c -o "APP/CTRL_main.o" "../APP/CTRL_main.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/CTRL_main.c:18:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:31,
+                 from ../APP/CTRL_main.c:18:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/CTRL_main.c:18:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/CTRL_main.c: In function '__vector_13':
+../APP/CTRL_main.c:40: warning: passing argument 1 of 'USART_sendPassword' makes pointer from integer without a cast
+../APP/CTRL_main.c: In function 'main':
+../APP/CTRL_main.c:57: warning: implicit declaration of function 'I2C_Init'
+../APP/CTRL_main.c:64: warning: implicit declaration of function 'USART_setReceiveCompleteCallback'
+../APP/CTRL_main.c:64: warning: implicit declaration of function 'USART_receiveCompleteCallback'
+../APP/CTRL_main.c:67: warning: implicit declaration of function 'UART_enableReceiveInterrupt'
+../APP/CTRL_main.c:74: warning: assignment makes pointer from integer without a cast
+../APP/CTRL_main.c:75: warning: assignment makes pointer from integer without a cast
+../APP/CTRL_main.c: At top level:
+../APP/../MCAL/TIMER_DRIVER/TIMER.h:217: warning: 'Timer1_callback' defined but not used
+Finished building: ../APP/CTRL_main.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+./APP/CTRL_main.o: In function `__vector_13':
+../APP/CTRL_main.c:34: undefined reference to `USART_receiveCompleteCallback'
+../APP/CTRL_main.c:35: undefined reference to `USART_setReceiveCompleteCallback'
+../APP/CTRL_main.c:35: undefined reference to `UART_enableReceiveInterrupt'
+make: *** [DOORLOCK_CTRL_HOSA.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:40:58 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../APP/CTRL_main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/CTRL_main.d" -MT"APP/CTRL_main.o" -c -o "APP/CTRL_main.o" "../APP/CTRL_main.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/CTRL_main.c:18:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:31,
+                 from ../APP/CTRL_main.c:18:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/CTRL_main.c:18:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/CTRL_main.c: In function '__vector_13':
+../APP/CTRL_main.c:40: warning: passing argument 1 of 'USART_sendPassword' makes pointer from integer without a cast
+../APP/CTRL_main.c: In function 'main':
+../APP/CTRL_main.c:57: warning: implicit declaration of function 'I2C_Init'
+../APP/CTRL_main.c:69: warning: assignment makes pointer from integer without a cast
+../APP/CTRL_main.c:70: warning: assignment makes pointer from integer without a cast
+../APP/CTRL_main.c: At top level:
+../APP/../MCAL/TIMER_DRIVER/TIMER.h:217: warning: 'Timer1_callback' defined but not used
+Finished building: ../APP/CTRL_main.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+Finished building target: DOORLOCK_CTRL_HOSA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DOORLOCK_CTRL_HOSA.elf  >"DOORLOCK_CTRL_HOSA.lss"
+Finished building: DOORLOCK_CTRL_HOSA.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18580 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        333 bytes (16.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:41:48 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18580 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        333 bytes (16.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:45:59 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../APP/CTRL_main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/CTRL_main.d" -MT"APP/CTRL_main.o" -c -o "APP/CTRL_main.o" "../APP/CTRL_main.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/CTRL_main.c:18:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:31,
+                 from ../APP/CTRL_main.c:18:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/CTRL_main.c:18:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/CTRL_main.c: In function '__vector_13':
+../APP/CTRL_main.c:40: warning: passing argument 1 of 'USART_sendPassword' makes pointer from integer without a cast
+../APP/CTRL_main.c: In function 'main':
+../APP/CTRL_main.c:57: warning: implicit declaration of function 'I2C_Init'
+../APP/CTRL_main.c:70: warning: assignment makes pointer from integer without a cast
+../APP/CTRL_main.c:71: warning: assignment makes pointer from integer without a cast
+../APP/CTRL_main.c: At top level:
+../APP/../MCAL/TIMER_DRIVER/TIMER.h:217: warning: 'Timer1_callback' defined but not used
+Finished building: ../APP/CTRL_main.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+Finished building target: DOORLOCK_CTRL_HOSA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DOORLOCK_CTRL_HOSA.elf  >"DOORLOCK_CTRL_HOSA.lss"
+Finished building: DOORLOCK_CTRL_HOSA.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18584 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        333 bytes (16.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:48:26 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+Finished building target: DOORLOCK_CTRL_HOSA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DOORLOCK_CTRL_HOSA.elf  >"DOORLOCK_CTRL_HOSA.lss"
+Finished building: DOORLOCK_CTRL_HOSA.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex DOORLOCK_CTRL_HOSA.elf  "DOORLOCK_CTRL_HOSA.hex"
+Finished building: DOORLOCK_CTRL_HOSA.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18584 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        333 bytes (16.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:50:55 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18584 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        333 bytes (16.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:51:11 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../APP/CTRL_main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/CTRL_main.d" -MT"APP/CTRL_main.o" -c -o "APP/CTRL_main.o" "../APP/CTRL_main.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/CTRL_main.c:18:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:31,
+                 from ../APP/CTRL_main.c:18:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/CTRL_main.c:18:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/CTRL_main.c: In function '__vector_13':
+../APP/CTRL_main.c:40: warning: passing argument 1 of 'USART_sendPassword' makes pointer from integer without a cast
+../APP/CTRL_main.c: In function 'main':
+../APP/CTRL_main.c:57: warning: implicit declaration of function 'I2C_Init'
+../APP/CTRL_main.c:70: warning: assignment makes pointer from integer without a cast
+../APP/CTRL_main.c:71: warning: assignment makes pointer from integer without a cast
+../APP/CTRL_main.c: At top level:
+../APP/../MCAL/TIMER_DRIVER/TIMER.h:217: warning: 'Timer1_callback' defined but not used
+Finished building: ../APP/CTRL_main.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+Finished building target: DOORLOCK_CTRL_HOSA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DOORLOCK_CTRL_HOSA.elf  >"DOORLOCK_CTRL_HOSA.lss"
+Finished building: DOORLOCK_CTRL_HOSA.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex DOORLOCK_CTRL_HOSA.elf  "DOORLOCK_CTRL_HOSA.hex"
+Finished building: DOORLOCK_CTRL_HOSA.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18584 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        333 bytes (16.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:26:15 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../MCAL/TIMER_DRIVER/TIMER.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/TIMER_DRIVER/TIMER.d" -MT"MCAL/TIMER_DRIVER/TIMER.o" -c -o "MCAL/TIMER_DRIVER/TIMER.o" "../MCAL/TIMER_DRIVER/TIMER.c"
+Finished building: ../MCAL/TIMER_DRIVER/TIMER.c
+ 
+Building file: ../APP/CTRL_main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/CTRL_main.d" -MT"APP/CTRL_main.o" -c -o "APP/CTRL_main.o" "../APP/CTRL_main.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/CTRL_main.c:18:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:31,
+                 from ../APP/CTRL_main.c:18:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/CTRL_main.c:18:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/CTRL_main.c: In function '__vector_13':
+../APP/CTRL_main.c:40: warning: passing argument 1 of 'USART_sendPassword' makes pointer from integer without a cast
+../APP/CTRL_main.c: In function 'main':
+../APP/CTRL_main.c:57: warning: implicit declaration of function 'I2C_Init'
+../APP/CTRL_main.c:70: warning: assignment makes pointer from integer without a cast
+../APP/CTRL_main.c:71: warning: assignment makes pointer from integer without a cast
+Finished building: ../APP/CTRL_main.c
+ 
+Building file: ../APP/mainApp_Functions.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/mainApp_Functions.d" -MT"APP/mainApp_Functions.o" -c -o "APP/mainApp_Functions.o" "../APP/mainApp_Functions.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/mainApp_Functions.c:13:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:31,
+                 from ../APP/mainApp_Functions.c:13:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/mainApp_Functions.c:13:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+Finished building: ../APP/mainApp_Functions.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+Finished building target: DOORLOCK_CTRL_HOSA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DOORLOCK_CTRL_HOSA.elf  >"DOORLOCK_CTRL_HOSA.lss"
+Finished building: DOORLOCK_CTRL_HOSA.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex DOORLOCK_CTRL_HOSA.elf  "DOORLOCK_CTRL_HOSA.hex"
+Finished building: DOORLOCK_CTRL_HOSA.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18584 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:29:18 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../APP/CTRL_main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/CTRL_main.d" -MT"APP/CTRL_main.o" -c -o "APP/CTRL_main.o" "../APP/CTRL_main.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/CTRL_main.c:18:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:31,
+                 from ../APP/CTRL_main.c:18:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/CTRL_main.c:18:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/CTRL_main.c: In function '__vector_13':
+../APP/CTRL_main.c:40: warning: passing argument 1 of 'USART_sendPassword' makes pointer from integer without a cast
+../APP/CTRL_main.c: In function 'main':
+../APP/CTRL_main.c:57: warning: implicit declaration of function 'I2C_Init'
+../APP/CTRL_main.c:70: warning: assignment makes pointer from integer without a cast
+../APP/CTRL_main.c:71: warning: assignment makes pointer from integer without a cast
+Finished building: ../APP/CTRL_main.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+Finished building target: DOORLOCK_CTRL_HOSA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DOORLOCK_CTRL_HOSA.elf  >"DOORLOCK_CTRL_HOSA.lss"
+Finished building: DOORLOCK_CTRL_HOSA.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex DOORLOCK_CTRL_HOSA.elf  "DOORLOCK_CTRL_HOSA.hex"
+Finished building: DOORLOCK_CTRL_HOSA.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18598 bytes (56.8% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:53:56 **** Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../APP/CTRL_main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/CTRL_main.d" -MT"APP/CTRL_main.o" -c -o "APP/CTRL_main.o" "../APP/CTRL_main.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/CTRL_main.c:18:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:31,
+                 from ../APP/CTRL_main.c:18:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/CTRL_main.c:18:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/CTRL_main.c: In function '__vector_13':
+../APP/CTRL_main.c:40: warning: passing argument 1 of 'USART_sendPassword' makes pointer from integer without a cast
+../APP/CTRL_main.c: In function 'main':
+../APP/CTRL_main.c:70: warning: assignment makes pointer from integer without a cast
+../APP/CTRL_main.c:71: warning: assignment makes pointer from integer without a cast
+Finished building: ../APP/CTRL_main.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+Finished building target: DOORLOCK_CTRL_HOSA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DOORLOCK_CTRL_HOSA.elf  >"DOORLOCK_CTRL_HOSA.lss"
+Finished building: DOORLOCK_CTRL_HOSA.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex DOORLOCK_CTRL_HOSA.elf  "DOORLOCK_CTRL_HOSA.hex"
+Finished building: DOORLOCK_CTRL_HOSA.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18594 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:19:39 **** Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../APP/CTRL_main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/CTRL_main.d" -MT"APP/CTRL_main.o" -c -o "APP/CTRL_main.o" "../APP/CTRL_main.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/CTRL_main.c:18:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:31,
+                 from ../APP/CTRL_main.c:18:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/CTRL_main.c:18:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/CTRL_main.c: In function '__vector_13':
+../APP/CTRL_main.c:40: warning: passing argument 1 of 'USART_sendPassword' discards qualifiers from pointer target type
+../APP/CTRL_main.c: In function 'main':
+../APP/CTRL_main.c:70: warning: assignment makes pointer from integer without a cast
+../APP/CTRL_main.c:71: warning: assignment makes pointer from integer without a cast
+Finished building: ../APP/CTRL_main.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+Finished building target: DOORLOCK_CTRL_HOSA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DOORLOCK_CTRL_HOSA.elf  >"DOORLOCK_CTRL_HOSA.lss"
+Finished building: DOORLOCK_CTRL_HOSA.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex DOORLOCK_CTRL_HOSA.elf  "DOORLOCK_CTRL_HOSA.hex"
+Finished building: DOORLOCK_CTRL_HOSA.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18588 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:45:49 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../APP/CTRL_main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/CTRL_main.d" -MT"APP/CTRL_main.o" -c -o "APP/CTRL_main.o" "../APP/CTRL_main.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/CTRL_main.c:18:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:31,
+                 from ../APP/CTRL_main.c:18:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/CTRL_main.c:18:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/CTRL_main.c: In function '__vector_13':
+../APP/CTRL_main.c:40: warning: passing argument 1 of 'USART_sendPassword' discards qualifiers from pointer target type
+../APP/CTRL_main.c: In function 'main':
+../APP/CTRL_main.c:70: warning: cast to pointer from integer of different size
+../APP/CTRL_main.c:71: warning: cast to pointer from integer of different size
+Finished building: ../APP/CTRL_main.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+Finished building target: DOORLOCK_CTRL_HOSA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DOORLOCK_CTRL_HOSA.elf  >"DOORLOCK_CTRL_HOSA.lss"
+Finished building: DOORLOCK_CTRL_HOSA.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex DOORLOCK_CTRL_HOSA.elf  "DOORLOCK_CTRL_HOSA.hex"
+Finished building: DOORLOCK_CTRL_HOSA.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18588 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:52:53 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../APP/CTRL_main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/CTRL_main.d" -MT"APP/CTRL_main.o" -c -o "APP/CTRL_main.o" "../APP/CTRL_main.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/CTRL_main.c:18:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:32,
+                 from ../APP/CTRL_main.c:18:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/CTRL_main.c:18:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/CTRL_main.c: In function '__vector_13':
+../APP/CTRL_main.c:40: warning: passing argument 1 of 'USART_sendPassword' makes pointer from integer without a cast
+../APP/CTRL_main.c: In function 'main':
+../APP/CTRL_main.c:70: warning: cast to pointer from integer of different size
+../APP/CTRL_main.c:71: warning: cast to pointer from integer of different size
+Finished building: ../APP/CTRL_main.c
+ 
+Building file: ../APP/mainApp_Functions.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/mainApp_Functions.d" -MT"APP/mainApp_Functions.o" -c -o "APP/mainApp_Functions.o" "../APP/mainApp_Functions.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/mainApp_Functions.c:13:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:32,
+                 from ../APP/mainApp_Functions.c:13:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/mainApp_Functions.c:13:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+Finished building: ../APP/mainApp_Functions.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+Finished building target: DOORLOCK_CTRL_HOSA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DOORLOCK_CTRL_HOSA.elf  >"DOORLOCK_CTRL_HOSA.lss"
+Finished building: DOORLOCK_CTRL_HOSA.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex DOORLOCK_CTRL_HOSA.elf  "DOORLOCK_CTRL_HOSA.hex"
+Finished building: DOORLOCK_CTRL_HOSA.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18594 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:55:50 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../MCAL/USART_DRIVER/USART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/USART_DRIVER/USART.d" -MT"MCAL/USART_DRIVER/USART.o" -c -o "MCAL/USART_DRIVER/USART.o" "../MCAL/USART_DRIVER/USART.c"
+In file included from ../MCAL/USART_DRIVER/USART.c:16:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/USART_DRIVER/USART.c
+ 
+Building file: ../MCAL/TIMER_DRIVER/TIMER.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/TIMER_DRIVER/TIMER.d" -MT"MCAL/TIMER_DRIVER/TIMER.o" -c -o "MCAL/TIMER_DRIVER/TIMER.o" "../MCAL/TIMER_DRIVER/TIMER.c"
+Finished building: ../MCAL/TIMER_DRIVER/TIMER.c
+ 
+Building file: ../MCAL/SPI_DRIVER/SPI.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/SPI_DRIVER/SPI.d" -MT"MCAL/SPI_DRIVER/SPI.o" -c -o "MCAL/SPI_DRIVER/SPI.o" "../MCAL/SPI_DRIVER/SPI.c"
+In file included from ../MCAL/SPI_DRIVER/SPI.c:16:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/SPI_DRIVER/SPI.c
+ 
+Building file: ../MCAL/ICU_DRIVER/ICU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/ICU_DRIVER/ICU.d" -MT"MCAL/ICU_DRIVER/ICU.o" -c -o "MCAL/ICU_DRIVER/ICU.o" "../MCAL/ICU_DRIVER/ICU.c"
+In file included from ../MCAL/ICU_DRIVER/ICU.c:16:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/ICU_DRIVER/ICU.c
+ 
+Building file: ../MCAL/I2C_DRIVER/I2C.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/I2C_DRIVER/I2C.d" -MT"MCAL/I2C_DRIVER/I2C.o" -c -o "MCAL/I2C_DRIVER/I2C.o" "../MCAL/I2C_DRIVER/I2C.c"
+In file included from ../MCAL/I2C_DRIVER/I2C.c:20:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/I2C_DRIVER/I2C.c
+ 
+Building file: ../MCAL/GPIO_DRIVER/GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/GPIO_DRIVER/GPIO.d" -MT"MCAL/GPIO_DRIVER/GPIO.o" -c -o "MCAL/GPIO_DRIVER/GPIO.o" "../MCAL/GPIO_DRIVER/GPIO.c"
+../MCAL/GPIO_DRIVER/GPIO.c: In function 'GPIO_setupPinDirection':
+../MCAL/GPIO_DRIVER/GPIO.c:27: error: 'NULL' undeclared (first use in this function)
+../MCAL/GPIO_DRIVER/GPIO.c:27: error: (Each undeclared identifier is reported only once
+../MCAL/GPIO_DRIVER/GPIO.c:27: error: for each function it appears in.)
+../MCAL/GPIO_DRIVER/GPIO.c: In function 'GPIO_writePin':
+../MCAL/GPIO_DRIVER/GPIO.c:90: error: 'NULL' undeclared (first use in this function)
+../MCAL/GPIO_DRIVER/GPIO.c: In function 'GPIO_togglePin':
+../MCAL/GPIO_DRIVER/GPIO.c:148: error: 'NULL' undeclared (first use in this function)
+../MCAL/GPIO_DRIVER/GPIO.c: In function 'GPIO_readPin':
+../MCAL/GPIO_DRIVER/GPIO.c:190: error: 'NULL' undeclared (first use in this function)
+../MCAL/GPIO_DRIVER/GPIO.c: In function 'GPIO_setupPortDirection':
+../MCAL/GPIO_DRIVER/GPIO.c:255: error: 'NULL' undeclared (first use in this function)
+../MCAL/GPIO_DRIVER/GPIO.c: In function 'GPIO_writePort':
+../MCAL/GPIO_DRIVER/GPIO.c:293: error: 'NULL' undeclared (first use in this function)
+../MCAL/GPIO_DRIVER/GPIO.c: In function 'GPIO_readPort':
+../MCAL/GPIO_DRIVER/GPIO.c:326: error: 'NULL' undeclared (first use in this function)
+make: *** [MCAL/GPIO_DRIVER/GPIO.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:56:21 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../MCAL/GPIO_DRIVER/GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/GPIO_DRIVER/GPIO.d" -MT"MCAL/GPIO_DRIVER/GPIO.o" -c -o "MCAL/GPIO_DRIVER/GPIO.o" "../MCAL/GPIO_DRIVER/GPIO.c"
+../MCAL/GPIO_DRIVER/GPIO.c: In function 'GPIO_setupPinDirection':
+../MCAL/GPIO_DRIVER/GPIO.c:27: error: 'NULL' undeclared (first use in this function)
+../MCAL/GPIO_DRIVER/GPIO.c:27: error: (Each undeclared identifier is reported only once
+../MCAL/GPIO_DRIVER/GPIO.c:27: error: for each function it appears in.)
+../MCAL/GPIO_DRIVER/GPIO.c: In function 'GPIO_writePin':
+../MCAL/GPIO_DRIVER/GPIO.c:90: error: 'NULL' undeclared (first use in this function)
+../MCAL/GPIO_DRIVER/GPIO.c: In function 'GPIO_togglePin':
+../MCAL/GPIO_DRIVER/GPIO.c:148: error: 'NULL' undeclared (first use in this function)
+../MCAL/GPIO_DRIVER/GPIO.c: In function 'GPIO_readPin':
+../MCAL/GPIO_DRIVER/GPIO.c:190: error: 'NULL' undeclared (first use in this function)
+../MCAL/GPIO_DRIVER/GPIO.c: In function 'GPIO_setupPortDirection':
+../MCAL/GPIO_DRIVER/GPIO.c:255: error: 'NULL' undeclared (first use in this function)
+../MCAL/GPIO_DRIVER/GPIO.c: In function 'GPIO_writePort':
+../MCAL/GPIO_DRIVER/GPIO.c:293: error: 'NULL' undeclared (first use in this function)
+../MCAL/GPIO_DRIVER/GPIO.c: In function 'GPIO_readPort':
+../MCAL/GPIO_DRIVER/GPIO.c:326: error: 'NULL' undeclared (first use in this function)
+make: *** [MCAL/GPIO_DRIVER/GPIO.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:56:32 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../MCAL/USART_DRIVER/USART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/USART_DRIVER/USART.d" -MT"MCAL/USART_DRIVER/USART.o" -c -o "MCAL/USART_DRIVER/USART.o" "../MCAL/USART_DRIVER/USART.c"
+In file included from ../MCAL/USART_DRIVER/USART.c:16:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/USART_DRIVER/USART.c
+ 
+Building file: ../MCAL/TIMER_DRIVER/TIMER.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/TIMER_DRIVER/TIMER.d" -MT"MCAL/TIMER_DRIVER/TIMER.o" -c -o "MCAL/TIMER_DRIVER/TIMER.o" "../MCAL/TIMER_DRIVER/TIMER.c"
+Finished building: ../MCAL/TIMER_DRIVER/TIMER.c
+ 
+Building file: ../MCAL/SPI_DRIVER/SPI.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/SPI_DRIVER/SPI.d" -MT"MCAL/SPI_DRIVER/SPI.o" -c -o "MCAL/SPI_DRIVER/SPI.o" "../MCAL/SPI_DRIVER/SPI.c"
+In file included from ../MCAL/SPI_DRIVER/SPI.c:16:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/SPI_DRIVER/SPI.c
+ 
+Building file: ../MCAL/ICU_DRIVER/ICU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/ICU_DRIVER/ICU.d" -MT"MCAL/ICU_DRIVER/ICU.o" -c -o "MCAL/ICU_DRIVER/ICU.o" "../MCAL/ICU_DRIVER/ICU.c"
+In file included from ../MCAL/ICU_DRIVER/ICU.c:16:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/ICU_DRIVER/ICU.c
+ 
+Building file: ../MCAL/I2C_DRIVER/I2C.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/I2C_DRIVER/I2C.d" -MT"MCAL/I2C_DRIVER/I2C.o" -c -o "MCAL/I2C_DRIVER/I2C.o" "../MCAL/I2C_DRIVER/I2C.c"
+In file included from ../MCAL/I2C_DRIVER/I2C.c:20:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/I2C_DRIVER/I2C.c
+ 
+Building file: ../MCAL/GPIO_DRIVER/GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/GPIO_DRIVER/GPIO.d" -MT"MCAL/GPIO_DRIVER/GPIO.o" -c -o "MCAL/GPIO_DRIVER/GPIO.o" "../MCAL/GPIO_DRIVER/GPIO.c"
+Finished building: ../MCAL/GPIO_DRIVER/GPIO.c
+ 
+Building file: ../MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.d" -MT"MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o" -c -o "MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o" "../MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.c"
+In file included from ../MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.c:16:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.c
+ 
+Building file: ../MCAL/ADC_DRIVER/ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/ADC_DRIVER/ADC.d" -MT"MCAL/ADC_DRIVER/ADC.o" -c -o "MCAL/ADC_DRIVER/ADC.o" "../MCAL/ADC_DRIVER/ADC.c"
+In file included from ../MCAL/ADC_DRIVER/ADC.c:16:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MCAL/ADC_DRIVER/ADC.c
+ 
+Building file: ../ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.d" -MT"ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o" -c -o "ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o" "../ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.c"
+Finished building: ../ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.c
+ 
+Building file: ../ECUAL/MOTOR_DRIVER/MOTOR.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/MOTOR_DRIVER/MOTOR.d" -MT"ECUAL/MOTOR_DRIVER/MOTOR.o" -c -o "ECUAL/MOTOR_DRIVER/MOTOR.o" "../ECUAL/MOTOR_DRIVER/MOTOR.c"
+In file included from ../ECUAL/MOTOR_DRIVER/MOTOR.c:19:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ECUAL/MOTOR_DRIVER/MOTOR.c
+ 
+Building file: ../ECUAL/LM35_DRIVER/LM35.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/LM35_DRIVER/LM35.d" -MT"ECUAL/LM35_DRIVER/LM35.o" -c -o "ECUAL/LM35_DRIVER/LM35.o" "../ECUAL/LM35_DRIVER/LM35.c"
+In file included from ../ECUAL/LM35_DRIVER/LM35.c:17:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ECUAL/LM35_DRIVER/LM35.c
+ 
+Building file: ../ECUAL/LED_DRIVER/LED.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/LED_DRIVER/LED.d" -MT"ECUAL/LED_DRIVER/LED.o" -c -o "ECUAL/LED_DRIVER/LED.o" "../ECUAL/LED_DRIVER/LED.c"
+Finished building: ../ECUAL/LED_DRIVER/LED.c
+ 
+Building file: ../ECUAL/LCD_DRIVER/LCD.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/LCD_DRIVER/LCD.d" -MT"ECUAL/LCD_DRIVER/LCD.o" -c -o "ECUAL/LCD_DRIVER/LCD.o" "../ECUAL/LCD_DRIVER/LCD.c"
+In file included from ../ECUAL/LCD_DRIVER/LCD.c:15:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../ECUAL/LCD_DRIVER/LCD.c: In function 'LCD_intgerToString':
+../ECUAL/LCD_DRIVER/LCD.c:230: warning: implicit declaration of function 'itoa'
+Finished building: ../ECUAL/LCD_DRIVER/LCD.c
+ 
+Building file: ../ECUAL/KEYPAD_DRIVER/KEYPAD.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/KEYPAD_DRIVER/KEYPAD.d" -MT"ECUAL/KEYPAD_DRIVER/KEYPAD.o" -c -o "ECUAL/KEYPAD_DRIVER/KEYPAD.o" "../ECUAL/KEYPAD_DRIVER/KEYPAD.c"
+In file included from ../ECUAL/KEYPAD_DRIVER/KEYPAD.c:15:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ECUAL/KEYPAD_DRIVER/KEYPAD.c
+ 
+Building file: ../ECUAL/EEPROM_DRIVER/EEPROM.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/EEPROM_DRIVER/EEPROM.d" -MT"ECUAL/EEPROM_DRIVER/EEPROM.o" -c -o "ECUAL/EEPROM_DRIVER/EEPROM.o" "../ECUAL/EEPROM_DRIVER/EEPROM.c"
+In file included from ../ECUAL/EEPROM_DRIVER/EEPROM.c:17:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ECUAL/EEPROM_DRIVER/EEPROM.c
+ 
+Building file: ../ECUAL/BUZZER_DRIVER/BUZZER.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/BUZZER_DRIVER/BUZZER.d" -MT"ECUAL/BUZZER_DRIVER/BUZZER.o" -c -o "ECUAL/BUZZER_DRIVER/BUZZER.o" "../ECUAL/BUZZER_DRIVER/BUZZER.c"
+Finished building: ../ECUAL/BUZZER_DRIVER/BUZZER.c
+ 
+Building file: ../ECUAL/BUTTON_DRIVER/BUTTON.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/BUTTON_DRIVER/BUTTON.d" -MT"ECUAL/BUTTON_DRIVER/BUTTON.o" -c -o "ECUAL/BUTTON_DRIVER/BUTTON.o" "../ECUAL/BUTTON_DRIVER/BUTTON.c"
+Finished building: ../ECUAL/BUTTON_DRIVER/BUTTON.c
+ 
+Building file: ../APP/CTRL_main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/CTRL_main.d" -MT"APP/CTRL_main.o" -c -o "APP/CTRL_main.o" "../APP/CTRL_main.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/CTRL_main.c:18:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:32,
+                 from ../APP/CTRL_main.c:18:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/CTRL_main.c:18:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/CTRL_main.c: In function '__vector_13':
+../APP/CTRL_main.c:40: warning: passing argument 1 of 'USART_sendPassword' makes pointer from integer without a cast
+../APP/CTRL_main.c: In function 'main':
+../APP/CTRL_main.c:70: warning: cast to pointer from integer of different size
+../APP/CTRL_main.c:71: warning: cast to pointer from integer of different size
+Finished building: ../APP/CTRL_main.c
+ 
+Building file: ../APP/mainApp_Functions.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/mainApp_Functions.d" -MT"APP/mainApp_Functions.o" -c -o "APP/mainApp_Functions.o" "../APP/mainApp_Functions.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/mainApp_Functions.c:13:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:32,
+                 from ../APP/mainApp_Functions.c:13:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/mainApp_Functions.c:13:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+Finished building: ../APP/mainApp_Functions.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+Finished building target: DOORLOCK_CTRL_HOSA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DOORLOCK_CTRL_HOSA.elf  >"DOORLOCK_CTRL_HOSA.lss"
+Finished building: DOORLOCK_CTRL_HOSA.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex DOORLOCK_CTRL_HOSA.elf  "DOORLOCK_CTRL_HOSA.hex"
+Finished building: DOORLOCK_CTRL_HOSA.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18594 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:58:19 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../ECUAL/LCD_DRIVER/LCD.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/LCD_DRIVER/LCD.d" -MT"ECUAL/LCD_DRIVER/LCD.o" -c -o "ECUAL/LCD_DRIVER/LCD.o" "../ECUAL/LCD_DRIVER/LCD.c"
+In file included from ../ECUAL/LCD_DRIVER/LCD.c:15:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ECUAL/LCD_DRIVER/LCD.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+Finished building target: DOORLOCK_CTRL_HOSA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DOORLOCK_CTRL_HOSA.elf  >"DOORLOCK_CTRL_HOSA.lss"
+Finished building: DOORLOCK_CTRL_HOSA.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex DOORLOCK_CTRL_HOSA.elf  "DOORLOCK_CTRL_HOSA.hex"
+Finished building: DOORLOCK_CTRL_HOSA.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18594 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:58:25 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18594 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:58:32 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18594 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:46:02 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18594 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:47:27 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18594 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:47:54 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../APP/CTRL_main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/CTRL_main.d" -MT"APP/CTRL_main.o" -c -o "APP/CTRL_main.o" "../APP/CTRL_main.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/CTRL_main.c:18:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:32,
+                 from ../APP/CTRL_main.c:18:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/CTRL_main.c:18:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/CTRL_main.c: In function '__vector_13':
+../APP/CTRL_main.c:40: warning: passing argument 1 of 'USART_sendPassword' makes pointer from integer without a cast
+../APP/CTRL_main.c: In function 'main':
+../APP/CTRL_main.c:70: warning: cast to pointer from integer of different size
+../APP/CTRL_main.c:71: warning: cast to pointer from integer of different size
+Finished building: ../APP/CTRL_main.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+Finished building target: DOORLOCK_CTRL_HOSA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DOORLOCK_CTRL_HOSA.elf  >"DOORLOCK_CTRL_HOSA.lss"
+Finished building: DOORLOCK_CTRL_HOSA.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex DOORLOCK_CTRL_HOSA.elf  "DOORLOCK_CTRL_HOSA.hex"
+Finished building: DOORLOCK_CTRL_HOSA.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18594 bytes (56.7% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:49:39 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../APP/CTRL_main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/CTRL_main.d" -MT"APP/CTRL_main.o" -c -o "APP/CTRL_main.o" "../APP/CTRL_main.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/CTRL_main.c:18:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/TIMER_DRIVER/TIMER.h:20,
+                 from ../APP/mainApp_Functions.h:32,
+                 from ../APP/CTRL_main.c:18:
+../APP/../MCAL/TIMER_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/CTRL_main.c:18:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/CTRL_main.c: In function '__vector_13':
+../APP/CTRL_main.c:40: warning: passing argument 1 of 'USART_sendPassword' makes pointer from integer without a cast
+../APP/CTRL_main.c: In function 'main':
+../APP/CTRL_main.c:57: warning: implicit declaration of function 'I2C_Init'
+../APP/CTRL_main.c:70: warning: cast to pointer from integer of different size
+../APP/CTRL_main.c:71: warning: cast to pointer from integer of different size
+Finished building: ../APP/CTRL_main.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+Finished building target: DOORLOCK_CTRL_HOSA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DOORLOCK_CTRL_HOSA.elf  >"DOORLOCK_CTRL_HOSA.lss"
+Finished building: DOORLOCK_CTRL_HOSA.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex DOORLOCK_CTRL_HOSA.elf  "DOORLOCK_CTRL_HOSA.hex"
+Finished building: DOORLOCK_CTRL_HOSA.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18598 bytes (56.8% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:50:23 **** Incremental Build of configuration Debug for project DOORLOCK_CTRL_HOSA ****
+make all 
+Building file: ../APP/CTRL_main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/CTRL_main.d" -MT"APP/CTRL_main.o" -c -o "APP/CTRL_main.o" "../APP/CTRL_main.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/CTRL_main.c:18:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/I2C_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/I2C_DRIVER/I2C.h:16,
+                 from ../APP/mainApp_Functions.h:27,
+                 from ../APP/CTRL_main.c:18:
+../APP/../MCAL/I2C_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/CTRL_main.c:18:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+../APP/CTRL_main.c: In function '__vector_13':
+../APP/CTRL_main.c:40: warning: passing argument 1 of 'USART_sendPassword' makes pointer from integer without a cast
+../APP/CTRL_main.c: In function 'main':
+../APP/CTRL_main.c:70: warning: cast to pointer from integer of different size
+../APP/CTRL_main.c:71: warning: cast to pointer from integer of different size
+Finished building: ../APP/CTRL_main.c
+ 
+Building file: ../APP/mainApp_Functions.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APP/mainApp_Functions.d" -MT"APP/mainApp_Functions.o" -c -o "APP/mainApp_Functions.o" "../APP/mainApp_Functions.c"
+In file included from ../APP/mainApp_Functions.h:18,
+                 from ../APP/mainApp_Functions.c:13:
+c:/program files/eclipse/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../APP/../MCAL/I2C_DRIVER/../GPIO_DRIVER/GPIO.h:16,
+                 from ../APP/../MCAL/I2C_DRIVER/I2C.h:16,
+                 from ../APP/mainApp_Functions.h:27,
+                 from ../APP/mainApp_Functions.c:13:
+../APP/../MCAL/I2C_DRIVER/../GPIO_DRIVER/../../LIB/STD_TYPES.h:32:1: warning: "NULL" redefined
+In file included from c:/program files/eclipse/winavr/lib/gcc/../../avr/include/stdlib.h:47,
+                 from ../APP/mainApp_Functions.h:16,
+                 from ../APP/mainApp_Functions.c:13:
+c:\program files\eclipse\winavr\bin\../lib/gcc/avr/4.3.3/include/stddef.h:403:1: warning: this is the location of the previous definition
+Finished building: ../APP/mainApp_Functions.c
+ 
+Building target: DOORLOCK_CTRL_HOSA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DOORLOCK_CTRL_HOSA.map -mmcu=atmega32 -o "DOORLOCK_CTRL_HOSA.elf"  ./MCAL/USART_DRIVER/USART.o  ./MCAL/TIMER_DRIVER/TIMER.o  ./MCAL/SPI_DRIVER/SPI.o  ./MCAL/ICU_DRIVER/ICU.o  ./MCAL/I2C_DRIVER/I2C.o  ./MCAL/GPIO_DRIVER/GPIO.o  ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o  ./MCAL/ADC_DRIVER/ADC.o  ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o  ./ECUAL/MOTOR_DRIVER/MOTOR.o  ./ECUAL/LM35_DRIVER/LM35.o  ./ECUAL/LED_DRIVER/LED.o  ./ECUAL/LCD_DRIVER/LCD.o  ./ECUAL/KEYPAD_DRIVER/KEYPAD.o  ./ECUAL/EEPROM_DRIVER/EEPROM.o  ./ECUAL/BUZZER_DRIVER/BUZZER.o  ./ECUAL/BUTTON_DRIVER/BUTTON.o  ./APP/CTRL_main.o ./APP/mainApp_Functions.o   
+Finished building target: DOORLOCK_CTRL_HOSA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DOORLOCK_CTRL_HOSA.elf  >"DOORLOCK_CTRL_HOSA.lss"
+Finished building: DOORLOCK_CTRL_HOSA.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex DOORLOCK_CTRL_HOSA.elf  "DOORLOCK_CTRL_HOSA.hex"
+Finished building: DOORLOCK_CTRL_HOSA.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 DOORLOCK_CTRL_HOSA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18598 bytes (56.8% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

@@ -1,0 +1,77 @@
+/******************************************************************************
+ *
+ * Application
+ *
+ * File Name: CTRL_main.c
+ *
+ * Description: Application file for this CTRL ECU in the final project
+ *
+ * Author: Hossam Mahmoud
+ *
+ *******************************************************************************/
+
+
+/*******************************************************************************
+ *                           	Application Libraries                          *
+ *******************************************************************************/
+
+#include "mainApp_Functions.h"
+
+/*******************************************************************************
+ *                              Application Execution                          *
+ *******************************************************************************/
+
+volatile uint8 dataReceived1 	= 0;
+volatile uint8 dataReceived2 	= 0;
+volatile uint8 ackSent 			= 0;
+
+
+// USART receive ISR
+ISR(USART_RXC_vect) {
+    // Handle receive interrupt
+	if (dataReceived1 == 0) {
+		dataReceived1 = UDR; // First data stream
+	} else if (dataReceived2 == 0) {
+		dataReceived2 = UDR; // Second data stream
+	}
+
+    // Send acknowledgment
+    ackSent = 1;
+    USART_sendPassword(UDR);
+}
+
+ISR(USART_TXC_vect) {
+    // Handle transmit complete interrupt
+	// Acknowledgment transmission is complete
+	ackSent = 0;
+}
+
+
+int main(void) {
+	USART_ConfigType *USARTConfig;
+	USARTConfig -> bitData 		= USART_8_BIT;
+	USARTConfig -> stopBit 		= USART_STOP_1_BIT;
+	USARTConfig -> parity 		= USART_PARITY_DISABLED;
+	USARTConfig -> baudRate 	= USART_BAUDRATE_9600;
+	USART_Init(USARTConfig);
+	I2C_Init();
+	sei();
+
+	uint8* receivedPassword1 			= passwordEntry1();
+	uint8* receivedPasswordVerification = passwordEntry2();
+
+    // Set the receive complete callback function
+    USART_setReceiveCompleteCallback(USART_receiveCompleteCallback());
+
+    // Enable UART receive interrupt
+    UART_enableReceiveInterrupt();
+
+	while (1) {
+		if (ackSent) {
+			// Acknowledgment sent successfully
+			// Perform desired operations
+		}
+	}
+
+}
+

@@ -14,9 +14,41 @@
 
 #define ARRAY_SIZE 5
 
+/*
+ * The LCD should start with a hello message for 3 seconds
+ * 1. then should display the "enter password'
+ * password should be of 5 characters
+ * the password should be displayed as ***** on the LCD for security
+ * enter button as any button on the keypad
+ * re enter password for confirmation
+ * the ecu will send the 2 passwords to check the matching through USART
+ * if matching, then will save it in the EEPROM
+ * if unmatched, repeat from step one
+ */
+
+/*
+ISR(TIMER0_COMP_vect) {
+	compadreMatches++;
+	LED_Toggle(PORT_C, PIN_0);
+
+	if(compareMatches == 2) {
+		LED_Toggle(PORT_C, PIN_1);
+	}
+	else if(compareMatches == 4) {
+		LED_Toggle(PORT_C, PIN_1);
+		LED_Toggle(PORT_C, PIN_2);
+		compareMatches = 0;
+	}
+}
+*/
+
+/*******************************************************************************
+ *                              Function Execution                             *
+ *******************************************************************************/
+
 uint8* passwordEntry1 (void) {
-	uint8 passLength = 5;
-	uint8* passInput1 = (uint8*) malloc(passLength * sizeof(uint8));
+	uint8 passLength 	= 5;
+	uint8* passInput1 	= (uint8*) malloc(passLength * sizeof(uint8));
 
 	// Code for getting keypad input and saving it in an uint8 array of size password length.
 	LCD_moveCursor(0, 0);
@@ -39,7 +71,7 @@ uint8* passwordEntry1 (void) {
 }
 
 uint8* passwordEntry2 (void) {
-	uint8 passLength = 5;
+	uint8  passLength = 5;
 	uint8* passInput2 = (uint8*) malloc(passLength * sizeof(uint8));
 
 	// Code for getting keypad input and saving it in an uint8 array of size password length.

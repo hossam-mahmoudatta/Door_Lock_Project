@@ -9,7 +9,7 @@ c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
                               ./APP/mainApp_Functions.o (__do_copy_data)
 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
-                              ./MCAL/TIMER_DRIVER/TIMER.o (__do_clear_bss)
+                              ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o (__do_clear_bss)
 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
                               ./MCAL/TIMER_DRIVER/TIMER.o (__fixunssfsi)
 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
@@ -201,7 +201,7 @@ LOAD c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x470c
+.text           0x00000000     0x472e
  *(.vectors)
  .vectors       0x00000000       0x54 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
                 0x00000000                __vectors
@@ -547,74 +547,74 @@ LOAD c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
                 0x00003d74       0x20 ./APP/HMI_main.o
                 0x00003d74                __vector_10
  .text.__vector_13
-                0x00003d94       0x20 ./APP/HMI_main.o
+                0x00003d94       0x36 ./APP/HMI_main.o
                 0x00003d94                __vector_13
  .text.__vector_15
-                0x00003db4       0x20 ./APP/HMI_main.o
-                0x00003db4                __vector_15
- .text.main     0x00003dd4       0x6e ./APP/HMI_main.o
-                0x00003dd4                main
+                0x00003dca       0x20 ./APP/HMI_main.o
+                0x00003dca                __vector_15
+ .text.main     0x00003dea       0x7e ./APP/HMI_main.o
+                0x00003dea                main
  .text.passwordEntry1
-                0x00003e42      0x194 ./APP/mainApp_Functions.o
-                0x00003e42                passwordEntry1
+                0x00003e68      0x194 ./APP/mainApp_Functions.o
+                0x00003e68                passwordEntry1
  .text.passwordEntry2
-                0x00003fd6      0x194 ./APP/mainApp_Functions.o
-                0x00003fd6                passwordEntry2
+                0x00003ffc      0x194 ./APP/mainApp_Functions.o
+                0x00003ffc                passwordEntry2
  .text.displayPasswords
-                0x0000416a       0xc4 ./APP/mainApp_Functions.o
-                0x0000416a                displayPasswords
+                0x00004190       0xc4 ./APP/mainApp_Functions.o
+                0x00004190                displayPasswords
  .text.USART_sendPassword
-                0x0000422e       0x5e ./APP/mainApp_Functions.o
-                0x0000422e                USART_sendPassword
- .text.libgcc   0x0000428c       0x3e c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
-                0x0000428c                __mulsi3
- .text.libgcc   0x000042ca       0x44 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
-                0x000042ca                __udivmodsi4
- .text.libgcc   0x0000430e        0x0 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
- .text.libgcc   0x0000430e        0x0 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
- .text.libgcc   0x0000430e        0x0 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
- .text.libgcc   0x0000430e       0x38 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
-                0x0000430e                __prologue_saves__
- .text.libgcc   0x00004346       0x36 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
-                0x00004346                __epilogue_restores__
+                0x00004254       0x5a ./APP/mainApp_Functions.o
+                0x00004254                USART_sendPassword
+ .text.libgcc   0x000042ae       0x3e c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x000042ae                __mulsi3
+ .text.libgcc   0x000042ec       0x44 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x000042ec                __udivmodsi4
+ .text.libgcc   0x00004330        0x0 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00004330        0x0 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00004330        0x0 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00004330       0x38 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x00004330                __prologue_saves__
+ .text.libgcc   0x00004368       0x36 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x00004368                __epilogue_restores__
  .text.avr-libc
-                0x0000437c      0x20a c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x0000437c                malloc
-                0x000044d6                free
+                0x0000439e      0x20a c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x0000439e                malloc
+                0x000044f8                free
  .text.avr-libc
-                0x00004586       0x42 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
-                0x00004586                itoa
+                0x000045a8       0x42 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+                0x000045a8                itoa
  .text.avr-libc.fplib
-                0x000045c8       0x26 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ceil.o)
-                0x000045c8                ceil
+                0x000045ea       0x26 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ceil.o)
+                0x000045ea                ceil
  .text.avr-libc.fplib
-                0x000045ee       0x36 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_mintl.o)
-                0x000045ee                __fp_mintl
+                0x00004610       0x36 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_mintl.o)
+                0x00004610                __fp_mintl
  .text.avr-libc.fplib
-                0x00004624       0x1c c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_mpack.o)
-                0x00004628                __fp_mpack_finite
-                0x00004624                __fp_mpack
+                0x00004646       0x1c c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_mpack.o)
+                0x0000464a                __fp_mpack_finite
+                0x00004646                __fp_mpack
  .text.avr-libc.fplib
-                0x00004640       0x2e c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_trunc.o)
-                0x00004640                __fp_trunc
+                0x00004662       0x2e c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_trunc.o)
+                0x00004662                __fp_trunc
  .text.avr-libc.fplib
-                0x0000466e        0xe c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_zero.o)
-                0x0000466e                __fp_zero
-                0x00004670                __fp_szero
+                0x00004690        0xe c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_zero.o)
+                0x00004690                __fp_zero
+                0x00004692                __fp_szero
  .text.avr-libc
-                0x0000467c       0x20 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
-                0x0000467c                strrev
+                0x0000469e       0x20 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x0000469e                strrev
  .text.avr-libc.fplib
-                0x0000469c       0x44 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_split3.o)
-                0x0000469c                __fp_split3
-                0x000046ac                __fp_splitA
- .text.libgcc   0x000046e0       0x28 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
-                0x000046e0                __udivmodhi4
-                0x00004708                . = ALIGN (0x2)
+                0x000046be       0x44 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_split3.o)
+                0x000046be                __fp_split3
+                0x000046ce                __fp_splitA
+ .text.libgcc   0x00004702       0x28 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x00004702                __udivmodhi4
+                0x0000472a                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00004708        0x0 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
-                0x00004708                exit
-                0x00004708                _exit
+ .fini9         0x0000472a        0x0 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x0000472a                exit
+                0x0000472a                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -633,11 +633,11 @@ LOAD c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00004708        0x4 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .fini0         0x0000472a        0x4 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x0000470c                _etext = .
+                0x0000472e                _etext = .
 
-.data           0x00800060      0x13e load address 0x0000470c
+.data           0x00800060      0x13e load address 0x0000472e
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800060        0x0 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
@@ -708,7 +708,7 @@ LOAD c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
                 0x0080019e                _edata = .
                 0x0080019e                PROVIDE (__data_end, .)
 
-.bss            0x0080019e        0xc
+.bss            0x0080019e        0x8
                 0x0080019e                PROVIDE (__bss_start, .)
  *(.bss)
  .bss           0x0080019e        0x0 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
@@ -766,32 +766,29 @@ LOAD c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  .bss           0x0080019e        0x0 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_split3.o)
  .bss           0x0080019e        0x0 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
  *(.bss*)
- .bss.Timer1_callback
-                0x0080019e        0x2 ./MCAL/TIMER_DRIVER/TIMER.o
  .bss.CallBackPtr
-                0x008001a0        0x2 ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o
-                0x008001a0                CallBackPtr
- .bss.Timer1_callback
-                0x008001a2        0x2 ./APP/HMI_main.o
+                0x0080019e        0x2 ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o
+                0x0080019e                CallBackPtr
  .bss.dataReceived
-                0x008001a4        0x1 ./APP/HMI_main.o
-                0x008001a4                dataReceived
- .bss.dataSent  0x008001a5        0x1 ./APP/HMI_main.o
-                0x008001a5                dataSent
+                0x008001a0        0x1 ./APP/HMI_main.o
+                0x008001a0                dataReceived
+ .bss.dataToSend
+                0x008001a1        0x1 ./APP/HMI_main.o
+                0x008001a1                dataToSend
  *(COMMON)
- COMMON         0x008001a6        0x4 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x008001a6                __brkval
-                0x008001a8                __flp
-                0x008001aa                PROVIDE (__bss_end, .)
-                0x0000470c                __data_load_start = LOADADDR (.data)
-                0x0000484a                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x008001a2        0x4 c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x008001a2                __brkval
+                0x008001a4                __flp
+                0x008001a6                PROVIDE (__bss_end, .)
+                0x0000472e                __data_load_start = LOADADDR (.data)
+                0x0000486c                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008001aa        0x0
-                0x008001aa                PROVIDE (__noinit_start, .)
+.noinit         0x008001a6        0x0
+                0x008001a6                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x008001aa                PROVIDE (__noinit_end, .)
-                0x008001aa                _end = .
-                0x008001aa                PROVIDE (__heap_start, .)
+                0x008001a6                PROVIDE (__noinit_end, .)
+                0x008001a6                _end = .
+                0x008001a6                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -809,51 +806,51 @@ LOAD c:/program files/eclipse/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
 .signature
  *(.signature*)
 
-.stab           0x00000000     0x6858
+.stab           0x00000000     0x6864
  *(.stab)
  .stab          0x00000000      0x7bc ./MCAL/USART_DRIVER/USART.o
- .stab          0x000007bc      0x984 ./MCAL/TIMER_DRIVER/TIMER.o
-                                0xb40 (size before relaxing)
- .stab          0x00001140      0x4d4 ./MCAL/SPI_DRIVER/SPI.o
+ .stab          0x000007bc      0x978 ./MCAL/TIMER_DRIVER/TIMER.o
+                                0xb34 (size before relaxing)
+ .stab          0x00001134      0x4d4 ./MCAL/SPI_DRIVER/SPI.o
                                 0x690 (size before relaxing)
- .stab          0x00001614      0x33c ./MCAL/ICU_DRIVER/ICU.o
+ .stab          0x00001608      0x33c ./MCAL/ICU_DRIVER/ICU.o
                                 0x4f8 (size before relaxing)
- .stab          0x00001950      0x468 ./MCAL/I2C_DRIVER/I2C.o
+ .stab          0x00001944      0x468 ./MCAL/I2C_DRIVER/I2C.o
                                 0x624 (size before relaxing)
- .stab          0x00001db8      0xa08 ./MCAL/GPIO_DRIVER/GPIO.o
+ .stab          0x00001dac      0xa08 ./MCAL/GPIO_DRIVER/GPIO.o
                                 0xbc4 (size before relaxing)
- .stab          0x000027c0      0x324 ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o
+ .stab          0x000027b4      0x324 ./MCAL/EXT_INTERRUPT_DRIVER/EXT_INTERRUPT.o
                                 0x4e0 (size before relaxing)
- .stab          0x00002ae4      0x378 ./MCAL/ADC_DRIVER/ADC.o
+ .stab          0x00002ad8      0x378 ./MCAL/ADC_DRIVER/ADC.o
                                 0x534 (size before relaxing)
- .stab          0x00002e5c      0x588 ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o
+ .stab          0x00002e50      0x588 ./ECUAL/SEVEN-SEGMENT_DRIVER/SEGMENT.o
                                 0x744 (size before relaxing)
- .stab          0x000033e4      0x324 ./ECUAL/MOTOR_DRIVER/MOTOR.o
+ .stab          0x000033d8      0x324 ./ECUAL/MOTOR_DRIVER/MOTOR.o
                                 0x4e0 (size before relaxing)
- .stab          0x00003708      0x2b8 ./ECUAL/LM35_DRIVER/LM35.o
+ .stab          0x000036fc      0x2b8 ./ECUAL/LM35_DRIVER/LM35.o
                                 0x474 (size before relaxing)
- .stab          0x000039c0      0x540 ./ECUAL/LED_DRIVER/LED.o
+ .stab          0x000039b4      0x540 ./ECUAL/LED_DRIVER/LED.o
                                 0x6fc (size before relaxing)
- .stab          0x00003f00      0xbd0 ./ECUAL/LCD_DRIVER/LCD.o
+ .stab          0x00003ef4      0xbd0 ./ECUAL/LCD_DRIVER/LCD.o
                                 0xd8c (size before relaxing)
- .stab          0x00004ad0      0x4b0 ./ECUAL/KEYPAD_DRIVER/KEYPAD.o
+ .stab          0x00004ac4      0x4b0 ./ECUAL/KEYPAD_DRIVER/KEYPAD.o
                                 0x66c (size before relaxing)
- .stab          0x00004f80      0x4ec ./ECUAL/EEPROM_DRIVER/EEPROM.o
+ .stab          0x00004f74      0x4ec ./ECUAL/EEPROM_DRIVER/EEPROM.o
                                 0x6a8 (size before relaxing)
- .stab          0x0000546c      0x30c ./ECUAL/BUZZER_DRIVER/BUZZER.o
+ .stab          0x00005460      0x30c ./ECUAL/BUZZER_DRIVER/BUZZER.o
                                 0x4c8 (size before relaxing)
- .stab          0x00005778      0x3c0 ./ECUAL/BUTTON_DRIVER/BUTTON.o
+ .stab          0x0000576c      0x3c0 ./ECUAL/BUTTON_DRIVER/BUTTON.o
                                 0x57c (size before relaxing)
- .stab          0x00005b38       0xd8 ./APP/Comments.o
+ .stab          0x00005b2c       0xd8 ./APP/Comments.o
                                  0xe4 (size before relaxing)
- .stab          0x00005c10      0x528 ./APP/HMI_main.o
+ .stab          0x00005c04      0x528 ./APP/HMI_main.o
                                 0x6e4 (size before relaxing)
- .stab          0x00006138      0x720 ./APP/mainApp_Functions.o
-                                0xa2c (size before relaxing)
+ .stab          0x0000612c      0x738 ./APP/mainApp_Functions.o
+                                0xb1c (size before relaxing)
 
-.stabstr        0x00000000     0x3357
+.stabstr        0x00000000     0x32bd
  *(.stabstr)
- .stabstr       0x00000000     0x3357 ./MCAL/USART_DRIVER/USART.o
+ .stabstr       0x00000000     0x32bd ./MCAL/USART_DRIVER/USART.o
 
 .stab.excl
  *(.stab.excl)

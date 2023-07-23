@@ -102,13 +102,13 @@ void Timer0_Init(const Timer_ConfigType* TIMER0_ConfigPtr) {
 void Timer0_deInit(void) {
 	TCCR0 = 0x00;
 	TCNT0 = 0x00;
-	OCR0   = 0x00;
+	OCR0  = 0x00;
 }
 
 void Timer1_Init(const Timer_ConfigType* TIMER1_ConfigPtr) {
 	TCCR1A = 0x00;
 	TCCR1B = 0x00;
-	TCNT1 = 0x00;
+	TCNT1  = 0x00;
 
 	switch (TIMER1_ConfigPtr -> prescaler) {
 		case	TIMER_PRESCALER_1024:
@@ -163,9 +163,9 @@ void Timer1_Init(const Timer_ConfigType* TIMER1_ConfigPtr) {
 void Timer1_deInit(void) {
 	TCCR1A	= 0x00;
 	TCCR1B	= 0x00;
-	TCNT1		= 0x00;
+	TCNT1	= 0x00;
 	OCR1A  	= 0x00;
-	OCR1B   	= 0x00;
+	OCR1B  	= 0x00;
 }
 
 
@@ -244,7 +244,7 @@ void Timer2_Init(const Timer_ConfigType* TIMER2_ConfigPtr) {
 void Timer2_deInit(void) {
 	TCCR2 = 0x00;
 	TCNT2 = 0x00;
-	OCR2   = 0x00;
+	OCR2  = 0x00;
 }
 
 
@@ -258,14 +258,14 @@ void Timer0_normalDelaySec(float32 timeDelay) {
 	// Then clears the TIFR by setting it
 	// Iterates Overflow Counter
 
-	float32 	tickTime 					= 0;
-	float32 	maxDelayTime 		= 0;
+	float32 	tickTime 		= 0;
+	float32 	maxDelayTime 	= 0;
 	float32 	overflowAmount 	= 0;
-	uint8 		overFlowCounter 	= 0;
+	uint8 		overFlowCounter	= 0;
 
-	tickTime = PRESCALER_VALUE / (float)F_CPU;
-	maxDelayTime = tickTime * 256; 		// 2^n = 256
-	overflowAmount = ceil((timeDelay) / (maxDelayTime));
+	tickTime 		= PRESCALER_VALUE / (float)F_CPU;
+	maxDelayTime 	= tickTime * 256; 		// 2^n = 256
+	overflowAmount 	= ceil((timeDelay) / (maxDelayTime));
 
 	// Using the Timer Overflow Flag TOV
 	//Timer0_Init();
@@ -306,14 +306,14 @@ void Timer1_normalDelaySec(float32 timeDelay) {
 	// Then clears the TIFR by setting it
 	// Iterates Overflow Counter
 
-	float32 	tickTime 					= 0;
-	float32 	maxDelayTime 		= 0;
-	float32 	overflowAmount 	= 0;
-	uint8 		overFlowCounter 	= 0;
+	float32 tickTime		= 0;
+	float32	maxDelayTime 	= 0;
+	float32	overflowAmount 	= 0;
+	uint8 	overFlowCounter	= 0;
 
-	tickTime = PRESCALER_VALUE / (float)F_CPU;
-	maxDelayTime = tickTime * 256; 		// 2^n = 256
-	overflowAmount = ceil((timeDelay) / (maxDelayTime));
+	tickTime 		= PRESCALER_VALUE / (float)F_CPU;
+	maxDelayTime 	= tickTime * 256; 		// 2^n = 256
+	overflowAmount 	= ceil((timeDelay) / (maxDelayTime));
 
 	// Using the Timer Overflow Flag TOV
 	//Timer1_Init();
@@ -330,14 +330,6 @@ void Timer1_normalDelaySec(float32 timeDelay) {
 }
 
 
-
-
-
-
-
-
-
-
 void Timer_setCTCMode_normalFreq(float freqKHZ, uint8 port_num, uint8 pin_num) {
 	// CTC: Clear Timer on Compare Match
 	// Our equation for the CTC Mode
@@ -351,8 +343,8 @@ void Timer_setCTCMode_normalFreq(float freqKHZ, uint8 port_num, uint8 pin_num) {
 
 	// Using the Timer CTC Mode
 	TCNT0 	= 0;
-	OCR0 		= 0;
-	OCR0 		= ceil( (float32)F_CPU / (2 * PRESCALER_VALUE * freqKHZ * 1000) ) - 1;
+	OCR0 	= 0;
+	OCR0 	= ceil( (float32)F_CPU / (2 * PRESCALER_VALUE * freqKHZ * 1000) ) - 1;
 
 	if (BIT_IS_SET(TIFR, OCF0)) {
 		GPIO_togglePin(port_num, pin_num);
@@ -374,11 +366,23 @@ uint8 Timer_setCTCMode_interruptFreq(float freqKHZ) {
 	// Using the Timer CTC Mode
 	//Timer0_Init();
 	TCNT0 	= 0;
-	OCR0 		= 0;
-	OCR0 		= ceil( (float32)F_CPU / (2 * PRESCALER_VALUE * freqKHZ * 1000) ) - 1;
+	OCR0 	= 0;
+	OCR0 	= ceil( (float32)F_CPU / (2 * PRESCALER_VALUE * freqKHZ * 1000) ) - 1;
 
 	return OCR0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
