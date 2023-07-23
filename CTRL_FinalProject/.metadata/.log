@@ -767,3 +767,42 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IResou
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2023-07-23 19:48:20.335
+!MESSAGE Exception saving preferences to: C:/Program Files/eclipse/configuration/.settings/com.genuitec.eclipse.webclipse.evergreen.prefs.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Program Files\eclipse\configuration\.settings\com.genuitec.eclipse.webclipse.evergreen.prefs
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:392)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:293)
+	at java.base/java.nio.file.Files.move(Files.java:1432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:292)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1066)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1042)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:390)
+	at com.genuitec.eclipse.webclipse.evergreen.internal.EvergreenManifestManager$ManifestUpdateJob.run(EvergreenManifestManager.java:133)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.webclipse.evergreen 4 0 2023-07-23 19:48:20.336
+!MESSAGE Error storing last check time
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception saving preferences to: C:/Program Files/eclipse/configuration/.settings/com.genuitec.eclipse.webclipse.evergreen.prefs.
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:300)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1066)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1042)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:390)
+	at com.genuitec.eclipse.webclipse.evergreen.internal.EvergreenManifestManager$ManifestUpdateJob.run(EvergreenManifestManager.java:133)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.AccessDeniedException: C:\Program Files\eclipse\configuration\.settings\com.genuitec.eclipse.webclipse.evergreen.prefs
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:392)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:293)
+	at java.base/java.nio.file.Files.move(Files.java:1432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:292)
+	... 6 more
